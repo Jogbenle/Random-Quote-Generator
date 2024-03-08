@@ -22,6 +22,8 @@ function generateQuote() {
         
         const quote = quotes[randomIdx]
         quoteElement.innerHTML = quote;
+        usedIndexes.add(randomIdx)
+        break
     }
-    }
+}
    
